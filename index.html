@@ -42,9 +42,13 @@ body {
   background: linear-gradient(160deg, #f8f6ff 0%, #fff 55%);
   padding: 64px 24px 56px;
   text-align: center;
-  border-bottom: 1px solid var(--border);
   position: relative;
   overflow: hidden;
+}
+.hero-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0 -24px;
 }
 .hero::before {
   content: '';
@@ -699,6 +703,8 @@ body {
   <div class="video-wrap">
     <iframe src="https://www.youtube.com/embed/CnxYP1CscRI" title="Як збільшити продажі інтернет-магазину без реклами — 6 скриптів для Хорошопу" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
+
+  <hr class="hero-divider">
 
   <div class="demo-bar">
     <div class="demo-bar-row">
