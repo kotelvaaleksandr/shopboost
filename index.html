@@ -121,6 +121,24 @@ body {
   border-radius: 20px;
 }
 
+/* Video */
+.video-wrap {
+  max-width: 640px;
+  margin: 0 auto 36px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+  position: relative;
+  aspect-ratio: 16/9;
+}
+.video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* Price */
 .price-block { margin-bottom: 12px; }
 .price-row {
@@ -684,6 +702,10 @@ body {
       <span>До безкоштовної доставки залишилось: <strong>960.00 грн</strong></span>
     </div>
     <div class="demo-track"><div class="demo-fill"></div></div>
+  </div>
+
+  <div class="video-wrap">
+    <iframe src="https://www.youtube.com/embed/CnxYP1CscRI" title="Як збільшити продажі інтернет-магазину без реклами — 6 скриптів для Хорошопу" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 
   <div class="price-block">
